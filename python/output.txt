@@ -1,0 +1,12 @@
+another
+dir4
+extra
+folder
+folder 1
+folder 2
+folder 3
+output.txrt
+output.txt
+py1
+py2
+py3

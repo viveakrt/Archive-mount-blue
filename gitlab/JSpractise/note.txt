@@ -1,0 +1,35 @@
+Create a project to send an email to a customer. 
+
+There should be a database of customers available using mysql 
+or postgresql. 
+
+The email should come from 
+no-reply@mountblue.io. 
+When the email is sent,
+ create a file with the email id that is returned 
+ from the api. 
+
+ After writing, set a timer to send 
+ the email to the same customer again after 24 hours.
+
+
+
+
+Functional checkpoint
+1. Create structure
+2. Create function to return email when is send
+3. Create function timer for 24 hour
+4. Create resend function 
+
+Commit messages
+1. Initial Commit file structure created having file index.js , .gitignore  and npm initialized
+
+2. Added userEmail function in index.js which return email of user . which email id is come from no-reply@mountblue.io
+
+3. Added setTimer function in index.js have parameter email which return time stamp of that specific email
+
+4. Added reSendMail function take argument email and time Stamp and the email to the same customer again after 24 hours.
+
+
+
+

@@ -1,0 +1,35 @@
+Create a permission system for the current project. 
+Ensure that the previous tables for permissions are 
+upgraded to the new format that you are using. 
+Create a new module to check if a particular user has the permissions or not. 
+Fit this into the old module so that the existing code does not break. 
+Once done, create a form on the frontend to add permissions for a particular user. 
+This form should only work when the user is an admin.
+
+
+
+
+
+
+Commit messages :
+
+1. Added permission.js and Created permission table with auto increment id (primary key), time stamps
+2. Added role.js and Created role table with auto increment id (primary key), time stamps
+3. Added user.js and Created user permission table with user_id, permission_id
+4. Create user roles table with user_id , role_id in user.js
+5. Create role permission table with role_id, permission_id in user.js
+6. Added check.js and created method for Checking User Role
+7. Created method for checking user permission in check.js
+8. Created method for checking permission through roles in check.js
+9. export the code into server.js
+10. Added form.html and Created the form for add permissions with post request
+11. Added form.js and create method for adding permission when user current user role is admin
+
+Check Points :
+
+1. Database Setup and Granting table level permission
+2. Build module
+3. Check User Role
+4. Check User Permission
+5. Add or modify permission
+6. Create Dashboard
